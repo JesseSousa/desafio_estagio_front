@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { ProductsGridComponent } from './products-grid/products-grid.component';
 import { ProductsContainerComponent } from './products-container/products-container.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     ProductsGridComponent,
-    ProductsContainerComponent
+    ProductsContainerComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
