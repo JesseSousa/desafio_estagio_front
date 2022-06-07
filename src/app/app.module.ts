@@ -8,6 +8,7 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { ProductsGridComponent } from './products-grid/products-grid.component';
 import { ProductsContainerComponent } from './products-container/products-container.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
     ProductsGridComponent,
     ProductsContainerComponent,
     ProductCardComponent,
+    ProductDetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
